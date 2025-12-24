@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 85vh;
+    background-color: green;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(235, 233, 233);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+header>nav>ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 233, 233);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>nav>ul>li{
+    width: 120px;
+    height: 70%;
+    /* background-color: pink; */
+    display: inline-block;
+    margin: 0vw 1.5vw;
+    border-radius: 10px;
+    font-size: x-large;
+    text-align: center;
+    line-height: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+header>nav>ul>li:nth-of-type(1){
+    margin-right: 50vw;
+    img{
+        width: 100%;
+        height: 100%;
+        background: gray;
+        border-radius: 10px;
+    }
+}
+
+header>nav>ul>li:nth-of-type(3){
+    img{
+        width: 3vw;
+        height: 6vh;
+        vertical-align: middle;
+        background-color: gray;
+    }
+}
+header>nav>ul>li:nth-of-type(4){
+    img{
+        width: 3vw;
+        height: 6vh;
+        vertical-align: middle;
+        background-color: gray;
+    }
+}
+header>div{
+    /* background-color: gray; */
+    width: 100%;
+    height: calc(100vh - 15vh);
+    background-image: url(./media/ai-new-frontier-manufacturing-1600x900.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15vh;
+}
+header>nav>ul>li:nth-of-type(4){
+    height: 100%;
+    margin: 0px 1.5vw;
+    line-height: 14vh;
+}
+.navmenu{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 15vh;
+    left: 0vw;
+    /* z-index: 10; */
+    display: none;
+        
+}
+header nav ul li:nth-of-type(4):hover > .navmenu{
+    display: block;
+}
+.navmenu>ul{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    list-style: none;
+    text-transform: capitalize;
+}
+.navmenu>ul>li{
+    width: 50%;
+    height: 10vh;
+    /* background-color: red; */
+    display: block;
+    margin: 1vh 0vh;
+    line-height: 10vh;
+    text-align: left;
+    padding-left: 3vw;
+    border-radius: 10px;
+}
+.navmenu>ul>li:hover{
+    background-color: blue;
+    color: white;
+}
+.navmenu>ul>li:nth-of-type(4){
+    margin-bottom: 0vh;
+}
+.navmenu>ul>li:nth-of-type(5){
+    border-top: 5px solid gray;
+    margin: 0vh;
+}
+.navmenu>ul>li:nth-of-type(6){
+    border-top: 5px solid gray;
+    margin: 0vh;
+}
+.navmenu>ul>li:nth-of-type(7){
+    border-top: 5px solid gray;
+    margin: 0vh;
+}
+.navlimenu1{
+    background-color: aqua;
+    width: 95vw;
+    left: 5vw;
+    position: fixed;
+    height: 90vh;
+    top: 15vh;
+    z-index: 11;
+    display: none;
+}
+.navmenu>ul>.navm1:hover .navlimenu1{
+    display: block;
+}
+.navlimenu2{
+    background-color: aqua;
+    width: 95vw;
+    left: 5vw;
+    position: fixed; 
+    height: 90vh;
+    top: 15vh;
+    z-index: 11;
+    display: none;
+}
+.navmenu>ul>.navm2:hover .navlimenu2{
+    display: block;
+}
+.navlimenu3{
+    background-color: aqua;
+    width: 95vw;
+    left: 5vw;
+    position: fixed; 
+    height: 90vh;
+    top: 15vh;
+    z-index: 11;
+    display: none;
+}
+.navmenu>ul>.navm3:hover .navlimenu3{
+    display: block;
+}
+.navlimenu4{
+    background-color: aqua;
+    width: 95vw;
+    left: 5vw;
+    position: fixed; 
+    height: 90vh;
+    top: 15vh;
+    z-index: 11;
+    display: none;
+}
+.navmenu>ul>.navm4:hover .navlimenu4{
+    display: block;
+}
+.navlimenu5{
+    background-color: aqua;
+    width: 95vw;
+    left: 5vw;
+    position: fixed; 
+    height: 90vh;
+    top: 15vh;
+    z-index: 11;
+    display: none;
+}
+.navmenu>ul>.navm5:hover .navlimenu5{
+    display: block;
+}
+.navlimenu6{
+    background-color: aqua;
+    width: 95vw;
+    left: 5vw;
+    position: fixed; 
+    height: 90vh;
+    top: 15vh;
+    z-index: 11;
+    display: none;
+}
+.navmenu>ul>.navm6:hover .navlimenu6{
+    display: block;
+}
+.navlimenu7{
+    background-color: aqua;
+    width: 95vw;
+    left: 5vw;
+    position: fixed; 
+    height: 90vh;
+    top: 15vh;
+    z-index: 11;
+    display: none;
+}
+.navmenu>ul>.navm7:hover .navlimenu7{
+    display: block;
+}
