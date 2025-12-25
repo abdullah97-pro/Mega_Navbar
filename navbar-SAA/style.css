@@ -132,7 +132,7 @@ header nav ul li:nth-of-type(4):hover > .navmenu{
     border-top: 5px solid gray;
     margin: 0vh;
 }
-.navlimenu1{
+.assassa{
     background-color: aqua;
     width: 95vw;
     left: 5vw;
@@ -145,81 +145,41 @@ header nav ul li:nth-of-type(4):hover > .navmenu{
 .navmenu>ul>.navm1:hover .navlimenu1{
     display: block;
 }
-.navlimenu2{
-    background-color: aqua;
-    width: 95vw;
-    left: 5vw;
-    position: fixed; 
-    height: 90vh;
-    top: 15vh;
-    z-index: 11;
-    display: none;
-}
+
 .navmenu>ul>.navm2:hover .navlimenu2{
     display: block;
 }
-.navlimenu3{
-    background-color: aqua;
-    width: 95vw;
-    left: 5vw;
-    position: fixed; 
-    height: 90vh;
-    top: 15vh;
-    z-index: 11;
-    display: none;
-}
+
 .navmenu>ul>.navm3:hover .navlimenu3{
     display: block;
 }
-.navlimenu4{
-    background-color: aqua;
-    width: 95vw;
-    left: 5vw;
-    position: fixed; 
-    height: 90vh;
-    top: 15vh;
-    z-index: 11;
-    display: none;
-}
+
 .navmenu>ul>.navm4:hover .navlimenu4{
     display: block;
 }
-.navlimenu5{
-    background-color: aqua;
-    width: 95vw;
-    left: 5vw;
-    position: fixed; 
-    height: 90vh;
-    top: 15vh;
-    z-index: 11;
-    display: none;
-}
+
 .navmenu>ul>.navm5:hover .navlimenu5{
     display: block;
 }
-.navlimenu6{
-    background-color: aqua;
-    width: 95vw;
-    left: 5vw;
-    position: fixed; 
-    height: 90vh;
-    top: 15vh;
-    z-index: 11;
-    display: none;
-}
+
 .navmenu>ul>.navm6:hover .navlimenu6{
     display: block;
 }
-.navlimenu7{
-    background-color: aqua;
-    width: 95vw;
-    left: 5vw;
-    position: fixed; 
-    height: 90vh;
-    top: 15vh;
-    z-index: 11;
-    display: none;
-}
+
 .navmenu>ul>.navm7:hover .navlimenu7{
     display: block;
+}
+.assassa>ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+.assassa>ul>li{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid brown;
+    margin: 1vh 0vh;
+}
+.assassa>ul>li:hover{
+    background-color: rgb(94, 15, 15);
 }
