@@ -134,8 +134,8 @@ header nav ul li:nth-of-type(4):hover > .navmenu{
 }
 .assassa{
     background-color: aqua;
-    width: 95vw;
-    left: 5vw;
+    width: 30vw;
+    right: 20vw;
     position: fixed;
     height: 90vh;
     top: 15vh;
@@ -179,7 +179,50 @@ header nav ul li:nth-of-type(4):hover > .navmenu{
     height: 10vh;
     border: 1px solid brown;
     margin: 1vh 0vh;
+    padding-left: 2vw;
+    color: black;
+    border-radius: 20px;
 }
 .assassa>ul>li:hover{
     background-color: rgb(94, 15, 15);
+    color: white;
+}
+main>.ms1{
+    width: 100%;
+    height: 62vh;
+    background-color: rgba(165, 42, 42, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.ms1>div>img{
+    width: 100%;
+    height: 25vh;
+    background-color: gray;
+    border-radius: 20px 20px 0px 0px;
+    padding: 0px;
+    display: block;
+}
+main>.ms1>div{
+    width: 25vw;
+    height: 60vh;
+    background-color: rgba(248, 248, 255, 0.22);
+    display: inline-block;
+    text-align: center;
+    padding: 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 4px black;
+
+}
+.ms1>div>h3{
+    font-size: 25px;
+    padding-top: 3vh;
+}
+.ms1>div>p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-weight: 500;
+    padding-top: 5px;
 }
